@@ -8,7 +8,7 @@ public class DiceUI_FX extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         GridPane root = new GridPane();
-        Scene scene = new Scene(root, 300,250);
+        Scene scene = new Scene(root, 200,200);
 
         new DiceGUI(root);
 
